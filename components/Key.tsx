@@ -27,7 +27,7 @@ export const Key = ({
   return (
     <button
       className={classNames(
-        `m-0 flex h-12 flex-shrink items-center justify-center rounded border-2 border-gray-200 bg-white text-xs
+        `m-0 flex h-12 flex-shrink items-center justify-center rounded border border-gray-200 bg-white text-xs
         shadow-md
         outline-none
         transition-all 

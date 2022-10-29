@@ -8,7 +8,7 @@ const nextConfig = {
     includePaths: [path.join(__dirname, 'styles')]
   },
   i18n: {
-    locales: ['ms', 'en'],
+    locales: ['ms'],
     defaultLocale: 'ms'
   }
 };

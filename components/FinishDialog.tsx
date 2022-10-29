@@ -99,7 +99,7 @@ export default function FinishDialog({ openDialog = false }) {
           <div></div>
         </Transition.Child> */}
 
-        <div className="fixed inset-0 z-10 overflow-y-auto">
+        <div className="fixed inset-0 z-10 overflow-y-auto bg-white text-black">
           <div className="flex min-h-full items-center justify-center p-4 text-center ">
             <Transition.Child
               as={Fragment}

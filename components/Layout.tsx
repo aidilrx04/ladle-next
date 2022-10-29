@@ -42,10 +42,12 @@ function Layout({ children }) {
 
         {/* <!-- Meta Tags Generated via https://www.opengraph.xyz --> */}
       </Head>
-      <Navigation />
-      <Viewidth>
-        <main className="content">{children}</main>
-      </Viewidth>
+      <div className="bg-white text-black">
+        <Navigation />
+        <Viewidth>
+          <main className="content">{children}</main>
+        </Viewidth>
+      </div>
     </>
   );
 }
